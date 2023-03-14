@@ -1,1 +1,1 @@
-172.16.141.15 ansible_ssh_user=sajal ansible_ssh_pass=sajal123
+172.16.141.15 ansible_ssh_user=sajal
