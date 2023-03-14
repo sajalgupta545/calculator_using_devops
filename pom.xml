@@ -22,7 +22,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>Calculator</mainClass>
+                                    <mainClass>org.example.Calculator</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
