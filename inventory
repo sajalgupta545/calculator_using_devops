@@ -1,1 +1,1 @@
-localhost ansible_ssh_pass=sajal123 ansible_ssh_user=sajal
+172.16.141.15 ansible_ssh_user=sajal ansible_ssh_pass=sajal123
