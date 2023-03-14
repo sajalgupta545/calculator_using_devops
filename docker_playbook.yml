@@ -17,3 +17,5 @@
         state: started
         tty: yes
         interactive: yes
+    - name: running container
+      shell: docker run -it -d sajalgupta545/calculator

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="vm user added">
+    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="Update inventory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sajal Gupta &lt;56759413+sajalgupta545@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,7 +65,7 @@
       <workItem from="1678682850057" duration="6928000" />
       <workItem from="1678778829079" duration="1902000" />
       <workItem from="1678788888355" duration="1375000" />
-      <workItem from="1678801032389" duration="1874000" />
+      <workItem from="1678801032389" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1678691362098</created>
@@ -152,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678802287774</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update inventory">
+      <created>1678802959950</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678802959950</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +188,7 @@
     <MESSAGE value="ansible files added" />
     <MESSAGE value="docker file path updated" />
     <MESSAGE value="vm user added" />
-    <option name="LAST_COMMIT_MESSAGE" value="vm user added" />
+    <MESSAGE value="Update inventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update inventory" />
   </component>
 </project>
