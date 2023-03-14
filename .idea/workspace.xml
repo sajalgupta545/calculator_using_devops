@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="ansible files added">
+    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="pom.xml dependencies added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <workItem from="1678651744107" duration="459000" />
       <workItem from="1678682850057" duration="6928000" />
       <workItem from="1678778829079" duration="1902000" />
-      <workItem from="1678788888355" duration="1375000" />
+      <workItem from="1678788888355" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1678691362098</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678788928023</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pom.xml dependencies added">
+      <created>1678790309905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678790309905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +142,7 @@
     <MESSAGE value="demo commit" />
     <MESSAGE value="docker test" />
     <MESSAGE value="ansible files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ansible files added" />
+    <MESSAGE value="pom.xml dependencies added" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml dependencies added" />
   </component>
 </project>
