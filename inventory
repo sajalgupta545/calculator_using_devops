@@ -1,1 +1,1 @@
-172.16.141.15 ansible_ssh_user=sajal
+localhost ansible_user=sajal
