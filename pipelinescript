@@ -12,13 +12,6 @@ pipeline{
             }
         }
 
-        stage('run program'){
-
-            steps{
-                 sh 'javac src/main/java/org/example/Calculator.java'
-                 sh 'java src/main/java/org/example/Calculator.java'
-            }
-        }
 
         stage('maven build'){
 
