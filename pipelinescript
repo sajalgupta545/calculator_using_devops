@@ -1,0 +1,71 @@
+pipeline{
+
+
+    agent any
+
+    stages{
+
+        stage('git pull'){
+
+            steps{
+                git branch: 'master' , url : 'https://github.com/sajalgupta545/calculator_using_devops.git'
+            }
+        }
+
+        stage('run program'){
+
+            steps{
+                 sh 'javac src/main/java/org/example/Calculator.java'
+                 sh 'java src/main/java/org/example/Calculator.java'
+            }
+        }
+
+        stage('maven build'){
+
+            steps{
+                //sh 'mvn clean validate compiler:compile compiler:testCompile test package install'
+                sh 'mvn clean install'
+            }
+
+        }
+
+        stage('build docker image'){
+            steps{
+                script{
+                   imageName = docker.build "sajalgupta545/calculator:latest"
+                }
+
+            }
+        }
+
+        stage('publish docker image'){
+            steps{
+                  withDockerRegistry([credentialsId: "docker-jenkins", url: ""])
+                  {
+                    sh 'docker push sajalgupta545/calculator:latest'
+                  }
+                }
+
+             }
+
+        stage('Clean Docker Images') {
+            steps {
+                sh 'docker rmi -f sajalgupta545/calculator:latest'
+            }
+        }
+
+        stage('Ansible Pull Docker Image(Deploy)') {
+            steps {
+                ansiblePlaybook becomeUser: 'null',
+                colorized: true,
+                disableHostKeyChecking:true,
+                installation: 'Ansible',
+                inventory: 'inventory',
+                playbook: 'docker_playbook.yml',
+                sudoUser: 'null'
+            }
+        }
+
+
+        }
+}
