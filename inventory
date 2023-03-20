@@ -1,2 +1,4 @@
+[localhost]
 localhost ansible_user=sajal
+[ubuntu]
 172.16.56.128 ansible_user=sajal
