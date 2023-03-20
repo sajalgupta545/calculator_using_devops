@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="Merge remote-tracking branch 'git/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="dummy check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipelinescript" beforeDir="false" afterPath="$PROJECT_DIR$/pipelinescript" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1678959132445" duration="599000" />
       <workItem from="1679131543157" duration="71000" />
       <workItem from="1679233700555" duration="826000" />
-      <workItem from="1679321468078" duration="4171000" />
+      <workItem from="1679321468078" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1678691362098</created>
@@ -234,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903171678</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="dummy check">
+      <created>1679331514454</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679331514454</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +266,7 @@
     <MESSAGE value="Updated the playbook for docker run" />
     <MESSAGE value="pipeline file added and log4j created" />
     <MESSAGE value="Merge remote-tracking branch 'git/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'git/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="dummy check" />
+    <option name="LAST_COMMIT_MESSAGE" value="dummy check" />
   </component>
 </project>
