@@ -41,6 +41,7 @@ pipeline{
         stage('Clean Docker Images') {
             steps {
                 sh 'docker rmi -f sajalgupta545/calculator:latest'
+
             }
         }
 
