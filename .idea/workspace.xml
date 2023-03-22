@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="dummy check">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_23,_7_37_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_23,_7_46_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_23__7_37_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_23__7_46_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a05d4ace-fbaa-4691-8d58-e306631bcce4" name="Changes" comment="testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipelinescript" beforeDir="false" afterPath="$PROJECT_DIR$/pipelinescript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,8 @@
       <workItem from="1679131543157" duration="71000" />
       <workItem from="1679233700555" duration="826000" />
       <workItem from="1679321468078" duration="7525000" />
-      <workItem from="1679480317282" duration="1320000" />
+      <workItem from="1679480317282" duration="2687000" />
+      <workItem from="1679486170740" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1678691362098</created>
@@ -258,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679333739392</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="testing">
+      <created>1679481722478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679481722478</updated>
+    </task>
+    <task id="LOCAL-00027" summary="testing">
+      <created>1679481948897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679481948897</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +297,7 @@
     <MESSAGE value="pipeline file added and log4j created" />
     <MESSAGE value="Merge remote-tracking branch 'git/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="dummy check" />
-    <option name="LAST_COMMIT_MESSAGE" value="dummy check" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
 </project>
